@@ -1,0 +1,79 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "globals": {
+    "GLOBAL_PARAMETERS": true,
+    "FB": true,
+    "React": true,
+    "describe": true,
+    "expect": true,
+    "it": true,
+    "test": true,
+    "jest": true,
+    "afterEach": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["react", "prettier", "flowtype"],
+  "rules": {
+    "no-bitwise": 0,
+    "no-debugger": 0,
+    "no-use-before-define": 1,
+    "new-cap": 1,
+    "no-caller": 1,
+    "no-empty": 1,
+    "no-irregular-whitespace": 1,
+    "no-new": 1,
+    "no-undef": 1,
+    "no-unused-vars": 1,
+    "max-depth": [1, 6],
+    "complexity": [1, 20],
+    "no-extend-native": 1,
+    "no-console": 0,
+    "curly": [1, "all"],
+    "eqeqeq": 1,
+    "no-eq-null": 1,
+    "guard-for-in": 1,
+    "strict": 0,
+    "no-with": 1,
+    "react/prefer-es6-class": 1,
+    "react/prefer-stateless-function": 1,
+    "react/jsx-pascal-case": 1,
+    "react/jsx-boolean-value": 1,
+    "react/no-string-refs": 1,
+    "react/self-closing-comp": 1,
+    "react/boolean-prop-naming": 1,
+    "react/default-props-match-prop-types": 1,
+    "react/display-name": 1,
+    "react/no-array-index-key": 1,
+    "react/no-deprecated": 1,
+    "react/prop-types": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/require-render-return": 1,
+    "react/sort-comp": 1,
+    "react/no-is-mounted": 1,
+    "prettier/prettier": "error"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/standard",
+    "plugin:flowtype/recommended"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.7.0"
+    }
+  }
+}
