@@ -46,7 +46,7 @@ class Intro extends React.Component {
     return (
       <IntroContainer ref={el => this.target = el}>
         <ProfilePic data-depth="0.15">
-          <img src={uglyshit} />
+          <img src={uglyshit} alt="hedik"/>
         </ProfilePic>
       </IntroContainer>
     )

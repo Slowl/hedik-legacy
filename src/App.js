@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
 import Home from './pages/Home'
-import Project from './pages/Project'
 
 const RootContainer = styled.div`
   width: 100%;
