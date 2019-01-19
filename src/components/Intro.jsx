@@ -42,7 +42,7 @@ const Desc = styled.div`
 
   div:first-child {
     opacity: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transform : translateY(-10px);
     animation: desc-1 1s ease .7s forwards;
 
@@ -52,12 +52,13 @@ const Desc = styled.div`
 
     span {
       font-weight: 300;
-      font-size : 24px;
+      font-size : 23px;
     }
   }
 
   div:nth-child(2) {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-size : 20px;
     opacity: 0;
     transform : translateY(-10px);
     animation: desc-2 .8s ease .9s forwards;
@@ -116,9 +117,8 @@ const Desc = styled.div`
   `
 
   const Arrow = styled.div`
-    width : 50px;
-    margin : 60px auto;
-    padding: 1em;
+    width: 60px;
+    margin : 40px auto;
     cursor: pointer;
     opacity: 0;
     animation : arrow 2.5s ease infinite 1.2s;
