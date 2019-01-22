@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useRef } from 'react';
 import styled from 'styled-components'
 import ScrollIntoView from 'react-scroll-into-view'
-import uglyshit from '../assets/me.jpg'
+import uglyshit from '../assets/img/me.jpg'
 import Parallax from 'parallax-js'
 
 
