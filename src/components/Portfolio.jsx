@@ -47,6 +47,25 @@ const PortfolioContainer = styled.div`
   .over:hover .view-project {
     visibility: visible;
   }
+
+  @media screen and (max-width: 45em) { /*portable classique*/
+
+      margin-bottom : 90px;
+      padding : 30px 0 30px 0;
+
+      a div {
+        width : 300px;
+        height: 200px;
+      }
+
+      .left {
+        margin : 10% 10% 10% 10;
+      }
+
+      .right {
+        margin : 10% 10% 10% 10%;
+      }
+  }
 `
 
 const Portfolio = () => {

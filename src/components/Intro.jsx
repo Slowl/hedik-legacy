@@ -10,6 +10,7 @@ const IntroContainer = styled.div`
   width: 100%;
   height: 100vh;
   color: white;
+  }
 `
 
 const ProfilePic = styled.div`
@@ -28,6 +29,13 @@ const ProfilePic = styled.div`
     width: 100%;
     border-radius: 200px;
   }
+
+  @media screen and (max-width: 45em) {
+    padding-top: 40%;
+
+    @keyframes profile {
+      100% { padding-top: 30%; opacity: 1;}
+    }
 `
 
 const Desc = styled.div`
