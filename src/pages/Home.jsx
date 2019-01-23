@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import Intro from '../components/Intro'
 import Portfolio from '../components/Portfolio'
+import Contact from '../components/Contact'
 
 const HomeContainer = styled.div`
-
 `
 
 const IntroWords = styled.div`
@@ -27,7 +27,7 @@ const IntroWords = styled.div`
 }
 `
 
-const Home = (props) => {
+const Home = () => {
 
   return (
     <HomeContainer>
@@ -35,6 +35,7 @@ const Home = (props) => {
       <IntroWords id="projects"> My <span>work</span></IntroWords>
       <Portfolio />
       <IntroWords> Contact me</IntroWords>
+      <Contact />
     </HomeContainer>
   )
 }
