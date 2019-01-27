@@ -24,6 +24,12 @@ const ContactContainer = styled.div`
     padding : 0px 10px;
     transition: .5s;
     transform: translateY(5px);
+    outline: 0;
+
+    :focus {
+      text-decoration: none;
+      outline: 0;
+    }
 
     :hover {
       transform: translateY(0px);
@@ -109,6 +115,14 @@ const ContactContainer = styled.div`
     padding : 1em 1em .4em 1em;
     font-size : 23px;
     cursor: pointer;
+    transition: background-color  .3s .2s;
+
+
+    :active {
+      background-color: rgba(255,255,255,0.3);
+      transition: background-color 0s;
+
+    }
 
     :after {
       content: "Click to copy";
