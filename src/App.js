@@ -12,14 +12,12 @@ const RoutesContainer = posed.div({
 
 const RootContainer = styled.div`
   width: 100%;
-  overflow-x: hidden;
   background: rgb(27,12,7);
   background: linear-gradient(159deg, rgba(20, 1, 0, 1) 24%, rgba(55, 1, 0, 1) 52%, rgba(121,0,0,1) 97%);
-
   animation: BackgroundAnim 3s linear forwards;
   background-size: 150% 150%;
 
-  @keyframes BackgrounAnim {
+  @keyframes BackgroundAnim {
     0%{background-position:18% 0%}
     50%{background-position:60% 50%}
     100%{background-position:90% 100%}
