@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from "@reach/router";
 
 const BlockContainer = styled.div`
   .left {
@@ -28,13 +29,13 @@ const BlockLeft = ({projectName, projectNumber, path, imgPath}) => {
 
   return (
     <BlockContainer className="aos-item" data-aos='fade-right' data-aos-anchor={`.${projectNumber}`}>
-      <a href={path}>
+      <Link to={path}>
         <div className={`work left ${projectNumber}`} style={{ backgroundImage: `url(${imgPath})` }}>
           <div className="over">
             <span className="view-project"> {projectName}</span>
           </div>
         </div>
-      </a>
+      </Link>
     </BlockContainer>
   )
 }

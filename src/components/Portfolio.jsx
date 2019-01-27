@@ -84,13 +84,13 @@ const Portfolio = () => {
         projectName="View The Project"
         projectNumber="a"
         imgPath={bsmkPic}
-        path="#"
+        path="bsmk"
       />
       <BlockRight
         projectName="View The Project"
         projectNumber="z"
         imgPath={linkfluPic}
-        path="#"
+        path="linkfluence"
       />
     </PortfolioContainer>
 
