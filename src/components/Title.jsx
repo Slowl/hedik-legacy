@@ -33,6 +33,13 @@ const TitleContainer = styled.div`
       100% { width: 240px ;}
     }
   }
+
+  @media screen and (max-width: 45em) {
+    padding-top: 3em;
+    font-size : 32px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
 `
 
 const Title = ({ title }) => {

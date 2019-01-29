@@ -8,7 +8,7 @@ import Arrow from './Arrow'
 
 const IntroContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   }
 `
@@ -36,6 +36,7 @@ const ProfilePic = styled.div`
     @keyframes profile {
       100% { padding-top: 30%; opacity: 1;}
     }
+  }
 `
 
 const Desc = styled.div`

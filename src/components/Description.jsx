@@ -11,12 +11,18 @@ const DescBloc = styled.div`
   font-weight: 300;
   line-height: 1.4;
   text-align:center;
-
   opacity: 0;
-  animation : svg-arrow .7s ease forwards .7s;
 
-  @keyframes svg-arrow {
-  100% {opacity: 1;}
+  animation: desc .7s ease .5s forwards;
+
+  @keyframes desc {
+    100% { transform: translateY(0px); opacity: 1;}
+  }
+
+  @media screen and (max-width: 45em) {
+    width: 90%;
+    margin: 2em auto;
+    font-size: 14px;
   }
 `
 

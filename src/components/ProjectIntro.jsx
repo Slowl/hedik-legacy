@@ -7,7 +7,7 @@ import Arrow from './Arrow'
 
 const ProjectContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 `
 
 const ProjectIntro = ({ title, js, html, css, firebase, react, webpack, children }) => {
@@ -20,7 +20,7 @@ const ProjectIntro = ({ title, js, html, css, firebase, react, webpack, children
         {children}
       </Description>
       <Arrow selector="showcase" />
-    </ProjectContainer> 
+    </ProjectContainer>
   )
 }
 
