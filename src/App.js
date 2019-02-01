@@ -5,6 +5,7 @@ import posed, { PoseGroup } from 'react-pose';
 import DontLookAtMe from './components/DontLookAtMe'
 import Home from './pages/Home'
 import Bsmk from './pages/Bsmk'
+import Linkfluence from './pages/Linkfluence'
 
 const RoutesContainer = posed.div({
   enter: { opacity: 1, delay: 200, beforeChildren: true },
@@ -43,6 +44,7 @@ class App extends React.Component {
                 <Router location={location} primary={false}>
                   <Home path="/" />
                   <Bsmk path="bsmk" />
+                  <Linkfluence path="linkfluence" />
                 </Router>
               </RoutesContainer>
             </PoseGroup>
