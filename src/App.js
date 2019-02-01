@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import { Router, Location } from "@reach/router"
 import posed, { PoseGroup } from 'react-pose';
+import DontLookAtMe from './components/DontLookAtMe'
 import Home from './pages/Home'
 import Bsmk from './pages/Bsmk'
 
@@ -27,7 +28,12 @@ const RootContainer = styled.div`
 
 class App extends React.Component {
 
+  componentDidMount(){
+    document.title = " ~ hedik/"
+  }
+
   render() {
+
     return (
       <RootContainer>
         <Location>
@@ -42,6 +48,7 @@ class App extends React.Component {
             </PoseGroup>
           )}
         </Location>
+        <DontLookAtMe />
       </RootContainer>
     );
   }
