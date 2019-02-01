@@ -71,6 +71,20 @@ const NoLive = styled.div`
   font-weight: 300;
   color: white;
   text-align: center;
+  opacity: 0;
+
+  a {
+    text-decoration: none;
+    color: white;
+    outline: 0;
+    cursor: pointer;
+  }
+
+  animation : delayFix 1s ease 1s forwards;
+
+  @keyframes delayFix {
+    100% { opacity: 1;}
+  }
 
   @media screen and (max-width: 45em) {
     padding: 1.5em;
@@ -83,7 +97,13 @@ const ProjectNav = ({ url, noLive }) => {
   return (
     <div>
       { noLive ? (
-        <NoLive> The website is not live yet, this section will updated as soon as Linkfluence push the application in production ! </NoLive>
+        <NoLive> The website is not live yet, this section will updated as soon as Linkfluence push the application in production !
+          <Link to="/">
+            <BackHome>
+              Back home
+            </BackHome>
+          </Link>
+        </NoLive>
       ) : (
         <NavContainer>
           <Link to="/">
