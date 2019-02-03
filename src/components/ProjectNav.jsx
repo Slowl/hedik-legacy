@@ -3,12 +3,12 @@ import styled from 'styled-components'
 import { Link } from "@reach/router";
 
 const NavContainer = styled.div`
-  width: 100%;
-  height: 15vh;
-  padding: 2em 0;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 4em;
   opacity: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
   a {
     text-decoration: none;
@@ -25,6 +25,7 @@ const NavContainer = styled.div`
 
   @media screen and (max-width: 45em) {
     flex-direction: column-reverse;
+    width: 100%;
   }
 `
 
@@ -78,6 +79,11 @@ const NoLive = styled.div`
     color: white;
     outline: 0;
     cursor: pointer;
+  }
+
+  div {
+    width: 30%;
+    margin: 2em auto 0;
   }
 
   animation : delayFix 1s ease 1s forwards;
