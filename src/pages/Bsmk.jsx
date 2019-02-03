@@ -37,10 +37,12 @@ const Bsmk = () => {
   return (
     <div>
       <ProjectIntro title="Bsmk Photography" js html css firebase>
-        Bsmk, a french independant photographer, came to me with a precise idea of what he wanted. Well, a precise idea in term of functionalities,
-        since I had to create the design myself with his consent.
-        Bsmk wanted a unique website were he could show his work and control the content at anytime, also the loading performance wasn't an
-        option (Hi WordPress !) and the mobile version of the website was mandatory.
+        Bsmk, a french independant photographer, came to me with a precise idea of what he wanted.
+        <div> Well, a precise idea in term of functionalities, since I had to create the design myself with his consent.</div>
+        <div>
+          Bsmk wanted a unique website were he could show his work and control the content at anytime, also the loading performance wasn't an
+          option (Hi WordPress !) and the mobile version of the website was mandatory.
+        </div>
 
       </ProjectIntro>
       <Showcase dataImg={BsmkImg} />
