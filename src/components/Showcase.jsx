@@ -7,6 +7,7 @@ const ShowcaseContainer = styled.div`
   width: 100%;
   color: white;
   opacity: 0;
+  margin-bottom: 4em;
 
   animation : delayFix 1s ease 1s forwards;
 
@@ -114,7 +115,7 @@ const Showcase = ({ dataImg }) => {
         {dataImg.map( (datas, key) => {
           return (
             <div key={key}>
-              <img src={datas.src} alt={datas.alt} />
+              <img src={datas.src} alt={datas.alt} importance={datas.importance} />
               <p className="legend">{datas.legend}</p>
             </div>
           )
