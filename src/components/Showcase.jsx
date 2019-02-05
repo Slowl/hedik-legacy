@@ -46,7 +46,7 @@ const StyledCarousel = styled(Carousel)`
         border-radius: 5px;
         width: 50%;
         left: 70%;
-        background-color: rgba(121,0,0,.5);
+        background-color: rgba(121,0,0,.75);
         opacity: 0;
       }
     }

@@ -103,7 +103,7 @@ const ProjectNav = ({ url, noLive }) => {
   return (
     <div>
       { noLive ? (
-        <NoLive> The website is not live yet, this section will updated as soon as Linkfluence push the application on the web !
+        <NoLive> This is a private local application for the moment, nothing available publicly !
           <Link to="/">
             <BackHome>
               Back home
