@@ -14,6 +14,10 @@ const ShowcaseContainer = styled.div`
   @keyframes delayFix {
     100% { opacity: 1;}
   }
+
+  @media screen and (max-width: 45em) {
+    display: none;
+  }
 `
 
 const StyledCarousel = styled(Carousel)`
@@ -103,7 +107,7 @@ const StyledCarousel = styled(Carousel)`
 const Showcase = ({ dataImg }) => {
 
   return (
-    <ShowcaseContainer id="showcase">
+    <ShowcaseContainer>
       <StyledCarousel
         dynamicHeight
         infiniteLoop

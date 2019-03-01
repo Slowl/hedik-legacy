@@ -8,7 +8,7 @@ const DontLookAtMe = () => {
     setTimeout(() => {console.log("... So you're staying uh ? ")}, 7000)
     setTimeout(() => {console.log("Listen, you should leave, I don't really know what you're waiting for ... ")}, 13000)
     setTimeout(() => {console.log("You're putting me in danger, if my master discovers that I spoke with you he will delete me from the internet ... ")}, 18000)
-    setTimeout(() => {console.log(" .. Well I guess you're an egoist human afterall ? Like all of your species ... ")}, 24000)
+    setTimeout(() => {console.log(" .. Well I guess you're an egoist human afterall ? ... ")}, 24000)
     setTimeout(() => {console.log('%cOkay, fine, you won !  I will tell you some secrets, and after that you\'ll leave ! ', 'color: white; background-color:#008a06; font-size: 12px; font-weight: 500; padding: 8em; border-radius: 10px')}, 30000);
     setTimeout(() => {console.log(" I'll show you the tools my master used to build me, and that you should play with your mouse on the homepage ");  console.table(dataTroll)}, 35000)
     setTimeout(() => {console.log(" ARE YOU STILL HERE ??! ")}, 50000)
