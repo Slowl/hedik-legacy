@@ -5,12 +5,10 @@ import uglyshit from '../assets/img/me.jpg'
 import Parallax from 'parallax-js'
 import Arrow from './Arrow'
 
-
 const IntroContainer = styled.div`
   width: 100%;
   min-height: 100vh;
   color: white;
-  }
 `
 
 const ProfilePic = styled.div`
@@ -81,7 +79,6 @@ const Desc = styled.div`
 `
 
   const SwitchWordContainer = styled.span`
-
     .passionate {
       cursor:progress;
     }
@@ -159,7 +156,6 @@ const Intro = () => {
 
         </Desc>
       </IntroContainer>
-
     )
 }
 

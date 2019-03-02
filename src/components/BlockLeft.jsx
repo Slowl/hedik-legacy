@@ -17,11 +17,11 @@ const BlockContainer = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
 
-  .work:hover {
-    transform:scale(1.01);
-    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    :hover {
+      transform:scale(1.01);
+      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    }
   }
 `
 

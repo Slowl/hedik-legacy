@@ -44,7 +44,6 @@ const BackHome = styled.div`
     background-color: rgba(255,255,255, .8);
     color: rgba(121,0,0,1);
   }
-
 `
 
 const ToTheSite = styled.div`
@@ -61,7 +60,6 @@ const ToTheSite = styled.div`
     background-color: rgba(255,255,255, .8);
     color: rgba(121,0,0,1);
   }
-
 `
 
 const NoLive = styled.div`

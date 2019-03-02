@@ -25,12 +25,16 @@ const PortfolioContainer = styled.div`
     justify-content: center;
     transition : .4s;
     border-radius : 20px;
-  }
 
-  .over:hover {
-    visibility: visible;
-    background-color : rgba(0,0,0,0.6);
-    border-radius : 20px;
+    :hover {
+      visibility: visible;
+      background-color : rgba(0,0,0,0.6);
+      border-radius : 20px;
+
+      .view-project {
+        visibility: visible;
+      }
+    }
   }
 
   .view-project {
@@ -42,10 +46,6 @@ const PortfolioContainer = styled.div`
     border : 2px solid #cc0000;
     border-radius : 40px;
     padding : 20px;
-  }
-
-  .over:hover .view-project {
-    visibility: visible;
   }
 
   @media screen and (max-width: 45em) { /*portable classique*/

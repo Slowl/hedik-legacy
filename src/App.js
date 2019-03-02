@@ -25,7 +25,6 @@ const RootContainer = styled.div`
     50%{background-position:60% 50%}
     100%{background-position:90% 100%}
 }
-
 `
 
 class App extends React.Component {
@@ -35,7 +34,6 @@ class App extends React.Component {
   }
 
   render() {
-
     return (
       <RootContainer>
         <Location>

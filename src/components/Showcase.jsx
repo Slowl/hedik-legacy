@@ -116,7 +116,7 @@ const Showcase = ({ dataImg }) => {
         showStatus={false}
         showThumbs={false}
       >
-        {dataImg.map( (datas, key) => {
+        {dataImg.map((datas, key) => {
           return (
             <div key={key}>
               <img src={datas.src} alt={datas.alt} importance={datas.importance} />

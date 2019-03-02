@@ -25,11 +25,9 @@ const ArrowBloc = styled.div`
     100% {opacity: 1;}
     }
   }
-
 `
 
 const Arrow = ({ selector }) => {
-
   return (
     <ArrowBloc>
       <ScrollIntoView alignToTop selector={`#${selector}`}>

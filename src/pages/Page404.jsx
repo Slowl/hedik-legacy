@@ -46,7 +46,6 @@ const Page404 = () => {
     return () => document.title = " ~ hedik/"
   })
 
-
   return (
     <Container>
       <div>

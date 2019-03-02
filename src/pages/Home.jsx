@@ -4,9 +4,6 @@ import Intro from '../components/Intro'
 import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 
-const HomeContainer = styled.div`
-`
-
 const IntroWords = styled.div`
   padding : 2%;
   margin-top : 1.5%;
@@ -17,7 +14,7 @@ const IntroWords = styled.div`
   word-spacing: 10px;
   color: white;
 
-::after {
+:after {
   display : block;
   content:'';
   width : 100px;
@@ -30,13 +27,13 @@ const IntroWords = styled.div`
 const Home = () => {
 
   return (
-    <HomeContainer>
+    <div>
       <Intro />
       <IntroWords id="projects"> My <span>work</span></IntroWords>
       <Portfolio />
       <IntroWords> Contact me</IntroWords>
       <Contact />
-    </HomeContainer>
+    </div>
   )
 }
 

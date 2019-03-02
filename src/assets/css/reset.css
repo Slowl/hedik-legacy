@@ -18,13 +18,6 @@ hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 
 }
 
-/*
-*,
-input[type="search"] {
-  box-sizing: border-box;
-}
-*/
-
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure,
@@ -35,12 +28,6 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   overflow-x: hidden;
-  /*height: 300vh;
-  background: rgb(27,12,7);
-  background: linear-gradient(159deg, rgba(20, 1, 0, 1) 24%, rgba(55, 1, 0, 1) 52%, rgba(121,0,0,1) 97%);
-
-  animation: AnimationName 3s linear forwards;
-  background-size: 150% 150%;*/
 }
 
 ol, ul {
