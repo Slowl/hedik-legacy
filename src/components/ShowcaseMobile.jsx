@@ -6,6 +6,7 @@ const MobileContainer = styled.div`
   min-width: 95%;
   max-width: 95%;
   margin : 1em auto 3.5em;
+  opacity: 0;
 
   animation : delayFix 1s ease 1s forwards;
 
