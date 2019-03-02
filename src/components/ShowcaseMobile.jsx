@@ -7,6 +7,16 @@ const MobileContainer = styled.div`
   max-width: 95%;
   margin : 1em auto 3.5em;
 
+  animation : delayFix 1s ease 1s forwards;
+
+  @keyframes delayFix {
+    100% { opacity: 1;}
+  }
+
+  @media screen and (max-width: 45em) {
+    display: none;
+  }
+
   @media screen and (max-width: 45em) {
     display: block;
   }
