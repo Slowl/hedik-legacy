@@ -33,16 +33,9 @@ const Linkfluence = () => {
   return (
     <div>
       <ProjectIntro title="Linkfluence Styleguide" react js html css webpack>
-        Storybook ? Styleguidist ? Docz ? Docusaurus ?  ... All of these tools in one ? Well that's more or less what I did for Linkfluence.
+        Storybook ? Styleguidist ? Docz ? Docusaurus ?  All of these tools in one place ? That's what I did for Linkfluence.
         <div>
-          Linkfluence's web engineers needed a tool to document their React components, write documentation, preview components
-          and be able to show them to non-web-enginners people (like designers for example).
-          <div>
-            Existing solutions were not matching all their needs so I built a homemade solution from scratch, with all the features of these different tools in one place !
-          </div>
-        </div>
-        <div>
-          In a few words : it's a library of components allowing web enginners to easily build a complete styleguide.
+          I built a library of components allowing web enginners to easily build a complete styleguide application matching all their needs.
         </div>
       </ProjectIntro>
 

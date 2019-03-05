@@ -4,68 +4,14 @@ import { useEffect } from 'react';
 import AOS from "aos"
 import '../assets/css/aos.css'
 
-import BlockRight from './BlockRight'
-import BlockLeft from './BlockLeft'
+import BlockProject from './BlockProject'
 
 import bsmkPic from "../assets/img/bsmk.jpg"
 import linkfluPic from "../assets/img/linkfluence.jpg"
 
 const PortfolioContainer = styled.div`
   overflow:hidden; height:100%;
-  margin-bottom : 170px;
-
-  a div {
-    width : 700px;
-    height: 400px;
-  }
-
-  .over {
-    display : flex;
-    align-items: center;
-    justify-content: center;
-    transition : .4s;
-    border-radius : 20px;
-
-    :hover {
-      visibility: visible;
-      background-color : rgba(0,0,0,0.6);
-      border-radius : 20px;
-
-      .view-project {
-        visibility: visible;
-      }
-    }
-  }
-
-  .view-project {
-    visibility:hidden;
-    color :#cc0000;
-    font-weight: 500;
-    font-size : 22px;
-    letter-spacing: 1px;
-    border : 2px solid #cc0000;
-    border-radius : 40px;
-    padding : 20px;
-  }
-
-  @media screen and (max-width: 45em) { /*portable classique*/
-
-      margin-bottom : 90px;
-      padding : 30px 0 30px 0;
-
-      a div {
-        width : 300px;
-        height: 200px;
-      }
-
-      .left {
-        margin : 10% 10% 10% 10;
-      }
-
-      .right {
-        margin : 10% 10% 10% 10%;
-      }
-  }
+  margin-bottom : 50px;
 `
 
 const Portfolio = () => {
@@ -80,17 +26,20 @@ const Portfolio = () => {
 
   return (
     <PortfolioContainer>
-      <BlockLeft
-        projectName="View The Project"
+      <BlockProject
+        projectName="Bsmk Photography"
         projectNumber="a"
+        direction="right"
         imgPath={bsmkPic}
         path="bsmk"
       />
-      <BlockRight
-        projectName="View The Project"
+      <BlockProject
+        projectName="Linkfluence Styleguide"
         projectNumber="z"
+        direction="left"
         imgPath={linkfluPic}
         path="linkfluence"
+        reversed
       />
     </PortfolioContainer>
 

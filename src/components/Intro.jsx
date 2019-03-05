@@ -41,7 +41,7 @@ const Desc = styled.div`
   text-align: center;
   margin-top: 1.5em;
   font-weight: 200;
-  font-size : 22px;
+  font-size : 30px;
 
   div {
     padding: .2em;
@@ -59,7 +59,7 @@ const Desc = styled.div`
 
     span {
       font-weight: 300;
-      font-size : 23px;
+      font-size : 34px;
     }
   }
 

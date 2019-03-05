@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import posed from 'react-pose';
 
 const BadgeContainer = styled.div`
-  width: 40%;
+  width: 60%;
   margin: auto;
   text-align: center;
 
@@ -40,7 +40,7 @@ const Badge = styled.div`
     display: inline-block;
     padding: .5em 1em;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 12px;
 
     span {
       margin-left: 7px;

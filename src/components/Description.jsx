@@ -2,16 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 
 const DescBloc = styled.div`
-  background-color: rgba(0,0,0, .05);
-  width: 70%;
-  margin: 4em auto;
+  width: 45%;
+  margin: 1em auto;
   padding: 1.2em;
-  border-radius: 10px;
   color: rgba(255,255,255, .8);
   font-weight: 300;
-  line-height: 1.4;
-  text-align:center;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: justify;
   opacity: 0;
+  word-spacing: 1px;
 
   animation: desc .7s ease .5s forwards;
 
@@ -21,8 +21,8 @@ const DescBloc = styled.div`
 
   @media screen and (max-width: 45em) {
     width: 90%;
-    margin: 2em auto;
-    font-size: 14px;
+    margin: 1em auto;
+    font-size: 18px;
   }
 `
 

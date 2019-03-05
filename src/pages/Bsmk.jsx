@@ -29,11 +29,12 @@ const Bsmk = () => {
   return (
     <div>
       <ProjectIntro title="Bsmk Photography" js html css firebase>
-        Bsmk, a french independant photographer, came to me with a precise idea of what he wanted.
-        <div> Well, a precise idea in term of functionalities, since I had to create the design myself before developing functionalities.</div>
+        Bsmk, a french independent photographer, came to me
+        with a precise idea of what he wanted for his new portfolio.
         <div>
-          Bsmk wanted a unique website where he could show his work and control the content at anytime, also the loading performance wasn't an
-          option (Hi WordPress !) and the mobile version of the website was mandatory.
+          Bsmk wanted a unique website where he could show his work,
+          control the content, also the loading performance wasn't an option
+          and the mobile version of the website was mandatory.
         </div>
 
       </ProjectIntro>

@@ -3,11 +3,11 @@ import styled from 'styled-components'
 
 const TitleContainer = styled.div`
   margin : auto;
-  padding-top: 2em;
+  padding-top: 1em;
   text-align: center;
   font-weight: 200;
   color : white;
-  font-size : 64px;
+  font-size : 78px;
   word-spacing: 15px;
   letter-spacing: 4px;
   opacity: 0;
@@ -35,9 +35,9 @@ const TitleContainer = styled.div`
   }
 
   @media screen and (max-width: 45em) {
-    padding-top: 3em;
-    font-size : 32px;
-    word-spacing: 3px;
+    padding-top: 1em;
+    font-size : 40px;
+    word-spacing: 1px;
     letter-spacing: 1px;
   }
 `
