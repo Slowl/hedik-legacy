@@ -107,8 +107,8 @@ const Intro = styled.div`
   }
 
   @media screen and (max-width: 45em) {
-    border-left: 0px solid transparent;
-    border-right: 0px solid transparent;
+    border-left: none;
+    border-right: none;
     border-top: 1px solid rgba(255,255,255, 0.2);
     width: 100%;
     margin-top: 2.5em;

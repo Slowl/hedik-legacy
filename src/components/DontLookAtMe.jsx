@@ -67,9 +67,9 @@ const DontLookAtMe = () => {
     Version: "3.1.46"
   },
 ]
-console.warn('%cWHAT ARE YOU DOING HERE ??!!!', 'color: white; background-color:#5e0000; font-size: 24px; font-weight: 600; padding: 20em; border-radius: 800px; border: 10px solid red;')
-console.warn('%cThis is a dangerous place ... You\'re being too curious, close this window and go back to the website. ', 'color: white; background-color:#5e0000; font-size: 14px; font-weight: 600; padding: 8em; border-radius: 10px');
-console.log('%cor wait a moment ... ', 'color: white; background-color: #5e0000; font-size: 9px; font-weight: 500; padding: 8em; border-radius: 10px', trigger);
+console.warn('%cWHAT ARE YOU DOING HERE ??!!!', 'color: white; background-color:#5e0000; font-size: 24px; font-weight: 600; padding: .5em; border-radius: 5px;')
+console.warn('%cThis is a dangerous place ... You\'re being too curious, close this window and go back to the website. ', 'color: white; background-color:#5e0000; font-size: 14px; font-weight: 600; padding: 0.5em; border-radius: 2px');
+console.log('%care you on Firefox ? ... ', 'color: white; background-color: #5e0000; font-size: 9px; font-weight: 500; padding: 0.5em; border-radius: 2px', trigger);
 
 
   return (

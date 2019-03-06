@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const DescBloc = styled.div`
   width: 45%;
   margin: 1em auto;
-  padding: 1.2em;
   color: rgba(255,255,255, .8);
   font-weight: 300;
   font-size: 22px;
