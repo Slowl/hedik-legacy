@@ -22,6 +22,13 @@ const BlockContainer = styled.div`
     background-size: cover;
   }
 
+  @media screen and (max-width: 65em) { /*tablette*/
+    .image {
+      width : 100%;
+      height: 300px;
+    }
+  }
+
   @media screen and (max-width: 45em) {
     flex-direction: column;
     margin: 2em auto;
@@ -77,6 +84,25 @@ const Intro = styled.div`
         background-color: rgba(255,255,255, .9);
         border-color: #380c11;
       }
+    }
+  }
+
+  @media screen and (max-width: 65em) { /*tablette*/
+    width: 100%;
+    margin-top: 2.5em;
+    padding: 2em 0;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+
+    .title {
+      font-size: 24px;
+      letter-spacing: 0px;
+      letter-spacing: 2px;
+    }
+    .little-nav  a {
+        width: 80%;
+        font-size: 16px;
+        font-weight: 300;
     }
   }
 
