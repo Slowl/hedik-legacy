@@ -5,14 +5,14 @@ const DontLookAtMe = () => {
   const trigger = /./
   trigger.toString = function () {
 
-    setTimeout(() => {console.log("... So you're staying uh ? ")}, 7000)
-    setTimeout(() => {console.log("Listen, you should leave, I don't really know what you're waiting for ... ")}, 13000)
-    setTimeout(() => {console.log("You're putting me in danger, if my master discovers that I spoke with you he will delete me from the internet ... ")}, 18000)
+    setTimeout(() => {console.log("... So, you're staying ? ")}, 7000)
+    setTimeout(() => {console.log("Listen, you should leave, I don't know what you're waiting for ... ")}, 13000)
+    setTimeout(() => {console.log("Look, if my master sees this, he will delete me from internet ... ")}, 18000)
     setTimeout(() => {console.log(" .. Well I guess you're an egoist human afterall ? ... ")}, 24000)
-    setTimeout(() => {console.log('%cOkay, fine, you won !  I will tell you some secrets, and after that you\'ll leave ! ', 'color: white; background-color:#008a06; font-size: 12px; font-weight: 500; padding: 8em; border-radius: 10px')}, 30000);
-    setTimeout(() => {console.log(" I'll show you the tools my master used to build me, and that you should play with your mouse on the homepage ");  console.table(dataTroll)}, 35000)
-    setTimeout(() => {console.log(" ARE YOU STILL HERE ??! ")}, 50000)
-    setTimeout(() => {console.log(" Okay, you don't leave me any choice")}, 54000)
+    setTimeout(() => {console.log('%cOk, fine, you won ! I will tell you some secrets, and you\'ll leave ! ', 'color: white; background-color:#008a06; font-size: 12px; font-weight: 500; padding: 8em; border-radius: 10px')}, 30000);
+    setTimeout(() => {console.log(" I'll show you the tools my master used to create me, and also, he hid elements on the homepage (or elsewhere)");  console.table(dataTroll)}, 35000)
+    setTimeout(() => {console.log(" YOU'RE STILL HERE ??! ")}, 50000)
+    setTimeout(() => {console.log(" Ok, you don't leave me any other choice")}, 54000)
     setTimeout(() => {console.log(`
     ⣿⣿⣿⣿⣿⠟⠉⠁⠄⠄⠄⠈⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
     ⣿⣿⣿⣿⠏⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸⢿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -68,8 +68,8 @@ const DontLookAtMe = () => {
   },
 ]
 console.warn('%cWHAT ARE YOU DOING HERE ??!!!', 'color: white; background-color:#5e0000; font-size: 24px; font-weight: 600; padding: 20em; border-radius: 800px; border: 10px solid red;')
-console.warn('%cThis is a dangerous place to be ... You\'re being too curious, close this and go back to the website !! ', 'color: white; background-color:#5e0000; font-size: 14px; font-weight: 600; padding: 8em; border-radius: 10px');
-console.log('%cor wait few seconds ... ', 'color: white; background-color: #5e0000; font-size: 9px; font-weight: 500; padding: 8em; border-radius: 10px', trigger);
+console.warn('%cThis is a dangerous place ... You\'re being too curious, close this window and go back to the website. ', 'color: white; background-color:#5e0000; font-size: 14px; font-weight: 600; padding: 8em; border-radius: 10px');
+console.log('%cor wait a moment ... ', 'color: white; background-color: #5e0000; font-size: 9px; font-weight: 500; padding: 8em; border-radius: 10px', trigger);
 
 
   return (
