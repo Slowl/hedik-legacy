@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import styled from 'styled-components'
-import uglyshit from '../assets/img/me.jpg'
+import uglyshit from '../assets/img/me.png'
 import Parallax from 'parallax-js'
 import Arrow from './Arrow'
 
