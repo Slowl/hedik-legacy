@@ -35,7 +35,7 @@ class App extends React.Component {
                   <Home path="/" />
                   <Bsmk path="bsmk" />
                   <Linkfluence path="linkfluence" />
-                  <Page404 default />
+                  <Page404 path="404" />
                 </Router>
               </RoutesContainer>
             </PoseGroup>

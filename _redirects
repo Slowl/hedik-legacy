@@ -1,3 +1,0 @@
-# Netlify redirection and handle react routing
-/* /index.html 200
-https://hedik.netlify.com/* https://www.hedik.fr/:splat 301!

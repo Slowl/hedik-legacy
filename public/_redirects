@@ -1,0 +1,6 @@
+# Netlify custom url redirection
+https://hedik.netlify.com/* https://www.hedik.fr/:splat 301!
+
+# Netlify route redirection
+/* /index.html 200
+/404 404
