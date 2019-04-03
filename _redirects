@@ -1,0 +1,2 @@
+# Netlify redirection
+https://hedik.netlify.com/* https://www.hedik.fr/:splat 301!
