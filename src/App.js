@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Bsmk from './pages/Bsmk'
 import Linkfluence from './pages/Linkfluence'
 import Page404 from './pages/Page404'
+import NotreDam from './pages/NotreDam'
 
 const RoutesContainer = posed.div({
   enter: { opacity: 1, delay: 200, beforeChildren: true },
@@ -36,6 +37,7 @@ class App extends React.Component {
                   <Bsmk path="bsmk" />
                   <Linkfluence path="linkfluence" />
                   <Page404 default />
+                  <NotreDam path="aidez-moi" />
                 </Router>
               </RoutesContainer>
             </PoseGroup>
