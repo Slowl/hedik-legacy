@@ -6,8 +6,8 @@ import ShowcaseMobile from '../components/ShowcaseMobile'
 import ProjectNav from '../components/ProjectNav'
 
 const LkfImg = [
-    { src: "https://i.ibb.co/qjNdH4n/list-components-1.png", legend:"A component that display a preview of a specific component and the code attached to it", alt:"list", importance:"high" },
-    { src: "https://i.ibb.co/2hb7RqC/list-components-2.png", legend:"The code attached to a component displayed", alt:"list", importance:"low" },
+    { src: "https://i.ibb.co/qjNdH4n/list-components-1.png", legend:"A component that displays a preview of a specific component and the code attached to it", alt:"list", importance:"high" },
+    { src: "https://i.ibb.co/2hb7RqC/list-components-2.png", legend:"The code attached to the component is displayed here", alt:"list", importance:"low" },
     { src: "https://i.ibb.co/k3bZVtx/playground-1.png", legend:"This is a Playground component to allow the user to play with the props of a component", alt:"playground", importance:"low" },
     { src: "https://i.ibb.co/ZLDKVRQ/playground-2.png", legend:"Live preview of the Playground, modifying the component and the code attached to it", alt:"playground", importance:"low" },
     { src: "https://i.ibb.co/vYDmN45/toolbox.png", legend:"Toolbox allowing to change some properties when we don't use the Playground component", alt:"toolbox", importance:"low" },
@@ -35,7 +35,7 @@ const Linkfluence = () => {
       <ProjectIntro title="Linkfluence Styleguide" react js html css webpack>
         Storybook ? Styleguidist ? Docz ? Docusaurus ?  All of these tools in one place ? That's what I did for Linkfluence.
         <div>
-          I built a library of components allowing web enginners to easily build a complete styleguide application matching all their needs.
+          I built a library of components allowing web engineering to easily build a complete styleguide application matching all their needs.
         </div>
       </ProjectIntro>
 

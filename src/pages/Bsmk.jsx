@@ -29,13 +29,8 @@ const Bsmk = () => {
   return (
     <div>
       <ProjectIntro title="Bsmk Photography" js html css firebase>
-        Bsmk, a french independent photographer, came to me
-        with a precise idea of what he wanted for his new portfolio.
-        <div>
-          Bsmk wanted a unique website where he could show his work,
-          control the content, also the loading performance wasn't an option
-          and the mobile version of the website was mandatory.
-        </div>
+        I worked for Bsmk, a French independent photographer for whom I created an unique website which allowed him to show his new portfolio.
+        <div>The page’s loading time is at its highest performance and the website also offers a mobile version.</div>
 
       </ProjectIntro>
       <div id="showcase">

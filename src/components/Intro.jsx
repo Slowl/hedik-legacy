@@ -150,7 +150,7 @@ const Intro = () => {
 
         <Desc>
           <div>Hi, I'm <span>Hedi K.</span></div>
-          <div>A <SwitchWordContainer> <span className="weird" data-hover="weird"><span className="passionate">passionate</span></span> </SwitchWordContainer> guy who code the web</div>
+          <div>A <SwitchWordContainer> <span className="weird" data-hover="weird"><span className="passionate">passionate</span></span> </SwitchWordContainer> guy who codes the web</div>
 
           <Arrow selector="projects"/>
 
