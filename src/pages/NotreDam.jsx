@@ -169,7 +169,7 @@ const NotreDam = () => {
             Comme le président de la République s’y est engagé, Notre-Dame sera rebâtie en intégralité.
             Mais cette reconstruction a un coût. C’est pourquoi nous avons besoin de la générosité de toutes et tous.
           </Bullshit>
-          <Support href="https://www.paypal.me/hedikch" target="_blank">
+          <Support href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
             Repentez vous içi
           </Support>
         </span>
