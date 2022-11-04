@@ -107,9 +107,9 @@ const AlertBanner = () => {
   return (
     <AlertBannerContainer isCollapsed={isCollapsed}>
       <div className='message'>
-        <span role='img' aria-label='warning'>⚠️</span>
+        <span role='img' aria-label='warning'> ⚠️ </span>
         This website was made in <u>2018</u> and is highly <strong>outdated</strong> (code, content, design) !
-        <span role='img' aria-label='warning'>⚠️</span>
+        <span role='img' aria-label='warning'> ⚠️ </span>
       </div>
       <div className='collapser' onClick={() => setIsCollapsed((prevCollapseState) => !(prevCollapseState))}>
         <FiChevronDown />
