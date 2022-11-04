@@ -95,7 +95,7 @@ const AlertBannerContainer = styled.div`
     bottom: ${({ isCollapsed }) => isCollapsed ? '-50px' : '-21px'};
     transition: .3s;
     svg {
-      transform: ${({ isCollapsed }) => isCollapsed ? 'translateX(1px) translateY(0px) rotate(0deg)' : 'translateX(1px) translateY(-1px) rotate(-180deg)'};
+      transform: ${({ isCollapsed }) => isCollapsed ? 'translateY(1px) rotate(0deg)' : 'translateY(-1px) rotate(-180deg)'};
       transition: .3s;
     }
   }
